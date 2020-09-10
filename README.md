@@ -4,13 +4,13 @@ A VSCode Extension To Add Headers Source Code Headers.
 
 ## Screenshots
 ### Bash Example
-![BASH](https://github.com/ch3rag/CodeHeader/blob/master/images/ssBash.PNG)
+![BASH](https://github.com/ch3rag/CodeHeader/raw/master/screenshots/ssBash.PNG)
 
 ### Javascript Example
-![JavaScript](https://github.com/ch3rag/CodeHeader/blob/master/images/ssJs.PNG)
+![JavaScript](https://github.com/ch3rag/CodeHeader/raw/master/screenshots/ssJs.PNG)
 
 ### HTML Example
-![HTML](https://github.com/ch3rag/CodeHeader/blob/master/images/ssHTML.PNG)
+![HTML](https://github.com/ch3rag/CodeHeader/raw/master/screenshots/ssHTML.PNG)
 
 ## Language Support
 
