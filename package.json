@@ -1,0 +1,79 @@
+{
+	"name": "codeheader",
+	"displayName": "CodeHeader",
+	"description": "Generate Headers For Source Codes",
+	"version": "1.0.6",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"publisher": "ch3rag",
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:codeheader.addHeader"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "codeheader.addHeader",
+				"title": "Add Header"
+			}
+		],
+		"configuration": {
+			"title": "Add Header",
+			"properties": {
+				"addHeader.author": {
+					"description": "Name of the developer or organization who has the copyright of the code.",
+					"type": "string",
+					"default": "Author Name"
+				},
+				"addHeader.addTime": {
+					"description": "Include system date and time while adding the header.",
+					"type": "boolean",
+					"default": "true"
+				},
+				"addHeader.commentBoxWidth": {
+					"description": "Size of the comment box",
+					"type": "number",
+					"default": 80
+				},
+				"addHeader.addFileName": {
+					"description": "Include file name in the header.",
+					"type": "boolean",
+					"default": "true"
+				},
+				"addHeader.addLanguage": {
+					"description": "Include source code language in header.",
+					"type": "boolean",
+					"default": "true"
+				},
+				"addHeader.addRepo": {
+					"description": "Include git repository and branch in header.",
+					"type": "boolean",
+					"default": "true"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.48.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"extensionDependencies": [
+		"vscode.git"
+	]
+}
