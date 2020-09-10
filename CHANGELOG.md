@@ -45,6 +45,6 @@
 - Added R Support
 - Added Perl Support
 
-## [1.0.7]
+## [1.0.7-1.0.8]
 
 - Fixed README.md
