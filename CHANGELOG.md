@@ -44,3 +44,7 @@
 - Added Django Template Support
 - Added R Support
 - Added Perl Support
+
+## [1.0.7]
+
+- Fixed README.md

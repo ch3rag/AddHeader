@@ -2,7 +2,7 @@
 	"name": "addheader",
 	"displayName": "Add Header",
 	"description": "Generate Headers For Source Codes",
-	"version": "1.0.6",
+	"version": "1.0.8",
 	"icon": "images/icon.png",
 	"galleryBanner": {
 		"theme": "dark"
