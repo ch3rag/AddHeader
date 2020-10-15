@@ -45,6 +45,10 @@
 - Added R Support
 - Added Perl Support
 
-## [1.0.7-1.0.8]
+## [1.0.7-1.0.9]
 
 - Fixed README.md
+
+## [1.1.0]
+
+- Added File Creation Time
